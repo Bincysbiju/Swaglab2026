@@ -13,6 +13,7 @@ import org.testng.annotations.BeforeMethod;
 //import org.testng.annotations.BeforeMethod;
 //import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -28,14 +29,17 @@ public class base {
     @BeforeSuite
     public void setupReport() {
         extent = ReporterClass.sam();
-    }
-    @BeforeMethod
-    public void browser_launch() {
-        driver = new ChromeDriver();
+
+    	driver = new ChromeDriver();
         driver.get(url);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-//        driver.manage().window().maximize();
     }
+//    @BeforeTest
+//    public void browser_launch() {
+//        driver = new ChromeDriver();
+//        driver.get(url);
+//        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+//        driver.manage().window().maximize();
+//    }
     
     @AfterSuite
     public void teardown() {

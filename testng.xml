@@ -5,7 +5,9 @@
     <classes>
      
       <class name="swagtestpkg.Login_test"/>
+      <class name="swagtestpkg.product_test"></class>
       <class name="swagtestpkg.checkout_test"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

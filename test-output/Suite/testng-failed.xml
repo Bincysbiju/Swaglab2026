@@ -3,14 +3,14 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="swagtestpkg.Login_test">
+      <class name="swagtestpkg.product_test">
         <methods>
-          <include name="browser_launch"/>
+          <include name="logo"/>
           <include name="setupReport"/>
           <include name="teardown"/>
-          <include name="loginTest" invocation-numbers="1 2"/>
+          <include name="additemstocart"/>
         </methods>
-      </class> <!-- swagtestpkg.Login_test -->
+      </class> <!-- swagtestpkg.product_test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

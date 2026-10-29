@@ -1,39 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-28T22:52:09 IST" name="Suite" finished-at="2026-10-28T22:52:54 IST" duration-ms="44469">
+  <suite started-at="2026-10-29T22:12:18 IST" name="Suite" finished-at="2026-10-29T22:13:18 IST" duration-ms="60072">
     <groups>
     </groups>
-    <test started-at="2026-10-28T22:52:09 IST" name="Test" finished-at="2026-10-28T22:52:54 IST" duration-ms="44469">
+    <test started-at="2026-10-29T22:12:18 IST" name="Test" finished-at="2026-10-29T22:13:18 IST" duration-ms="60072">
       <class name="swagtestpkg.checkout_test">
-        <test-method is-config="true" signature="browser_launch()[pri:0, instance:swagtestpkg.checkout_test@45c7e403]" started-at="2026-10-28T22:52:22 IST" name="browser_launch" finished-at="2026-10-28T22:52:24 IST" duration-ms="1938" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser_launch -->
-        <test-method signature="verifyCheckoutProcess()[pri:0, instance:swagtestpkg.checkout_test@45c7e403]" started-at="2026-10-28T22:52:24 IST" name="verifyCheckoutProcess" finished-at="2026-10-28T22:52:54 IST" duration-ms="29944" status="PASS">
+        <test-method signature="verifyCheckoutProcess()[pri:0, instance:swagtestpkg.checkout_test@b3ca52e]" started-at="2026-10-29T22:12:58 IST" name="verifyCheckoutProcess" finished-at="2026-10-29T22:13:18 IST" duration-ms="20566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCheckoutProcess -->
       </class> <!-- swagtestpkg.checkout_test -->
       <class name="swagtestpkg.Login_test">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:swagtestpkg.Login_test@24aed80c]" started-at="2026-10-28T22:52:09 IST" name="setupReport" finished-at="2026-10-28T22:52:09 IST" duration-ms="367" status="PASS">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:swagtestpkg.Login_test@24269709]" started-at="2026-10-29T22:12:16 IST" name="setupReport" finished-at="2026-10-29T22:12:18 IST" duration-ms="2359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="browser_launch()[pri:0, instance:swagtestpkg.Login_test@24aed80c]" started-at="2026-10-28T22:52:09 IST" name="browser_launch" finished-at="2026-10-28T22:52:12 IST" duration-ms="2411" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser_launch -->
-        <test-method signature="logoValidation()[pri:0, instance:swagtestpkg.Login_test@24aed80c]" started-at="2026-10-28T22:52:12 IST" name="logoValidation" finished-at="2026-10-28T22:52:12 IST" duration-ms="133" status="PASS">
+        <test-method signature="logoValidation()[pri:0, instance:swagtestpkg.Login_test@24269709]" started-at="2026-10-29T22:12:18 IST" name="logoValidation" finished-at="2026-10-29T22:12:18 IST" duration-ms="52" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoValidation -->
-        <test-method is-config="true" signature="browser_launch()[pri:0, instance:swagtestpkg.Login_test@24aed80c]" started-at="2026-10-28T22:52:13 IST" name="browser_launch" finished-at="2026-10-28T22:52:14 IST" duration-ms="1713" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:swagtestpkg.Login_test@24269709]" started-at="2026-10-29T22:12:18 IST" name="loginTest" data-provider="loginData" finished-at="2026-10-29T22:12:24 IST" duration-ms="5185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aryaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[arya123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browser_launch -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:swagtestpkg.Login_test@24aed80c]" started-at="2026-10-28T22:52:14 IST" name="loginTest" data-provider="loginData" finished-at="2026-10-28T22:52:15 IST" duration-ms="486" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:swagtestpkg.Login_test@24269709]" started-at="2026-10-29T22:12:24 IST" name="loginTest" data-provider="loginData" finished-at="2026-10-29T22:12:29 IST" duration-ms="5154" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ammu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ammu1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:swagtestpkg.Login_test@24269709]" started-at="2026-10-29T22:12:29 IST" name="loginTest" data-provider="loginData" finished-at="2026-10-29T22:12:34 IST" duration-ms="5157" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,133 +69,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="browser_launch()[pri:0, instance:swagtestpkg.Login_test@24aed80c]" started-at="2026-10-28T22:52:15 IST" name="browser_launch" finished-at="2026-10-28T22:52:17 IST" duration-ms="2018" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser_launch -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:swagtestpkg.Login_test@24aed80c]" started-at="2026-10-28T22:52:17 IST" name="loginTest" data-provider="loginData" finished-at="2026-10-28T22:52:17 IST" duration-ms="497" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[standard_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[adby6]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Login failed for: standard_user]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Login failed for: standard_user
-at org.testng.Assert.fail(Assert.java:111)
-at swagtestpkg.Login_test.loginTest(Login_test.java:56)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="browser_launch()[pri:0, instance:swagtestpkg.Login_test@24aed80c]" started-at="2026-10-28T22:52:17 IST" name="browser_launch" finished-at="2026-10-28T22:52:19 IST" duration-ms="1860" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser_launch -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:swagtestpkg.Login_test@24aed80c]" started-at="2026-10-28T22:52:19 IST" name="loginTest" data-provider="loginData" finished-at="2026-10-28T22:52:20 IST" duration-ms="510" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[locked_out_user]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[secret_sauce]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Login failed for: locked_out_user]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Login failed for: locked_out_user
-at org.testng.Assert.fail(Assert.java:111)
-at swagtestpkg.Login_test.loginTest(Login_test.java:56)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="browser_launch()[pri:0, instance:swagtestpkg.Login_test@24aed80c]" started-at="2026-10-28T22:52:20 IST" name="browser_launch" finished-at="2026-10-28T22:52:22 IST" duration-ms="2027" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browser_launch -->
-        <test-method signature="buttontexivalidation()[pri:2, instance:swagtestpkg.Login_test@24aed80c]" started-at="2026-10-28T22:52:22 IST" name="buttontexivalidation" finished-at="2026-10-28T22:52:22 IST" duration-ms="75" status="PASS">
+        <test-method signature="buttontexivalidation()[pri:2, instance:swagtestpkg.Login_test@24269709]" started-at="2026-10-29T22:12:34 IST" name="buttontexivalidation" finished-at="2026-10-29T22:12:34 IST" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buttontexivalidation -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:swagtestpkg.Login_test@24aed80c]" started-at="2026-10-28T22:52:54 IST" name="teardown" finished-at="2026-10-28T22:52:55 IST" duration-ms="746" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:swagtestpkg.Login_test@24269709]" started-at="2026-10-29T22:13:18 IST" name="teardown" finished-at="2026-10-29T22:13:18 IST" duration-ms="258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- swagtestpkg.Login_test -->
+      <class name="swagtestpkg.product_test">
+        <test-method signature="logo()[pri:1, instance:swagtestpkg.product_test@279fedbd]" started-at="2026-10-29T22:12:34 IST" name="logo" finished-at="2026-10-29T22:12:36 IST" duration-ms="2175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logo -->
+        <test-method signature="additemstocart()[pri:2, instance:swagtestpkg.product_test@279fedbd]" started-at="2026-10-29T22:12:36 IST" name="additemstocart" finished-at="2026-10-29T22:12:58 IST" duration-ms="21366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additemstocart -->
+      </class> <!-- swagtestpkg.product_test -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

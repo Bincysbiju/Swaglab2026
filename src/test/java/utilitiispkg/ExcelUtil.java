@@ -8,25 +8,34 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelUtil {
-	public static Object[][] getTestData(String excelPath, String sheetName) throws IOException {
-        FileInputStream fis = new FileInputStream(excelPath);
-        XSSFWorkbook workbook = new XSSFWorkbook(fis);
-        XSSFSheet sheet = workbook.getSheet(sheetName);
+	 public static Object[][] getTestData(String filePath, String sheetName) throws IOException {
+	 FileInputStream fis = new FileInputStream(filePath);
 
-        int rowCount = sheet.getLastRowNum();
-        int colCount = sheet.getRow(0).getLastCellNum();
+     XSSFWorkbook workbook = new XSSFWorkbook(fis);
 
-        Object[][] data = new Object[rowCount][colCount];
-        DataFormatter formatter = new DataFormatter();
+     XSSFSheet sheet = workbook.getSheet(sheetName);
 
-        for (int i = 0; i < rowCount; i++) {
-            for (int j = 0; j < colCount; j++) {
-                data[i][j] = formatter.formatCellValue(sheet.getRow(i + 1).getCell(j));
-            }
-        }
-        workbook.close();
-        fis.close();
-        return data;
-    }
+     int rows = sheet.getLastRowNum();
+     int cols = sheet.getRow(0).getLastCellNum();
 
+     Object[][] data = new Object[rows][cols];
+
+     DataFormatter formatter = new DataFormatter();
+
+     for (int i = 1; i <= rows; i++) {
+
+         for (int j = 0; j < cols; j++) {
+
+             data[i - 1][j] =
+                     formatter.formatCellValue(
+                             sheet.getRow(i).getCell(j)
+                     );
+         }
+     }
+
+     workbook.close();
+     fis.close();
+
+     return data;
+ }
 }
